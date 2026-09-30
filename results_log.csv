@@ -1,0 +1,13 @@
+timestamp,label,num_frames,delivered,permanently_failed,total_attempts,retransmissions,packet_loss_percent,throughput_fps,retransmission_rate_percent,avg_latency_ms,elapsed_sec
+2026-09-26 12:48:31,Light traffic,30,30,0,35,5,0.0,15495.07,14.29,0.065,0.0019
+2026-09-26 12:48:31,Normal traffic,30,30,0,41,11,0.0,94250.71,26.83,0.011,0.0003
+2026-09-26 12:48:31,Heavy traffic,30,30,0,39,9,0.0,66137.57,23.08,0.015,0.0005
+2026-09-26 12:48:31,Severe/lossy traffic,30,23,7,95,72,23.33,13636.9,75.79,0.056,0.0017
+2026-09-26 12:59:01,Light traffic,ICU1,DOC1,ICU1 -> DOC1,2,30,30,0,34,4,0.0,64102.57,11.76,0.016,0.0005
+2026-09-26 12:59:01,Normal traffic,ICU1,DOC1,ICU1 -> DOC1,2,30,30,0,36,6,0.0,74147.31,16.67,0.013,0.0004
+2026-09-26 12:59:01,Heavy traffic,ICU1,DOC1,ICU1 -> SRV -> DOC1,3,30,30,0,53,23,0.0,41811.85,43.4,0.024,0.0007
+2026-09-26 12:59:01,Severe/lossy traffic,ICU1,DOC1,ICU1 -> SRV -> DOC1,3,30,26,4,74,48,13.33,30900.88,64.86,0.028,0.0008
+2026-09-26 13:00:55,Light traffic,ICU1,DOC1,ICU1 -> DOC1,2,30,30,0,33,3,0.0,100368.01,9.09,0.01,0.0003
+2026-09-26 13:00:55,Normal traffic,ICU1,DOC1,ICU1 -> DOC1,2,30,30,0,39,9,0.0,82735.79,23.08,0.012,0.0004
+2026-09-26 13:00:55,Heavy traffic,ICU1,DOC1,ICU1 -> SRV -> DOC1,3,30,30,0,44,14,0.0,64102.57,31.82,0.016,0.0005
+2026-09-26 13:00:55,Severe/lossy traffic,ICU1,DOC1,ICU1 -> SRV -> DOC1,3,30,28,2,75,47,6.67,29542.1,62.67,0.032,0.0009
